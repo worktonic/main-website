@@ -21791,10 +21791,10 @@ body .tpd-size-medium .tpd-content {
 
 @media only screen and (max-width: 1350px) {
     .header-style-1 .header-mainnav .mainmenu-nav .mainmenu {
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
+        /* -webkit-box-pack: center; */
+        /* -webkit-justify-content: center; */
         -ms-flex-pack: center;
-        justify-content: center;
+        /* justify-content: center; */
     }
 }
 
