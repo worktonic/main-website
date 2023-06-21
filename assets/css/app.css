@@ -17027,7 +17027,7 @@ body .tpd-size-medium .tpd-content {
 
 .pv-header-style .mainmenu-nav .mainmenu li a {
     padding: 0 20px;
-    height: 90px;
+    height: 90px; 
     line-height: 90px;
 }
 
@@ -21791,10 +21791,10 @@ body .tpd-size-medium .tpd-content {
 
 @media only screen and (max-width: 1350px) {
     .header-style-1 .header-mainnav .mainmenu-nav .mainmenu {
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
+        /* -webkit-box-pack: center; */
+        /* -webkit-justify-content: center; */
         -ms-flex-pack: center;
-        justify-content: center;
+        /* justify-content: center; */
     }
 }
 
@@ -22131,7 +22131,7 @@ body .tpd-size-medium .tpd-content {
 } */
 
 .mainmenu-nav .mainmenu li.has-droupdown .submenu {
-    min-width: 270px;
+    min-width: 290px;
     height: auto;
     position: absolute;
     top: 90%;
