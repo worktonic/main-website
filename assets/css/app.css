@@ -497,6 +497,14 @@ Custom Row
     }
 }
 
+@media only screen and (max-width:500px){
+.rep{
+    margin-left:0 !important;
+}
+}
+
+
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .row--30 > [class*="col"],
       .row--30 > [class*="col-"] {
@@ -1160,6 +1168,7 @@ li > ol {
 ol ul {
     margin-bottom: 0;
 }
+
 
 img {
     -ms-interpolation-mode: bicubic;
@@ -21791,10 +21800,10 @@ body .tpd-size-medium .tpd-content {
 
 @media only screen and (max-width: 1350px) {
     .header-style-1 .header-mainnav .mainmenu-nav .mainmenu {
-        -webkit-box-pack: center;
-        -webkit-justify-content: center;
+        /* -webkit-box-pack: center; */
+        /* -webkit-justify-content: center; */
         -ms-flex-pack: center;
-        justify-content: center;
+        /* justify-content: center; */
     }
 }
 
