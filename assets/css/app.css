@@ -497,6 +497,14 @@ Custom Row
     }
 }
 
+@media only screen and (max-width:500px){
+.rep{
+    margin-left:0 !important;
+}
+}
+
+
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .row--30 > [class*="col"],
       .row--30 > [class*="col-"] {
@@ -1160,6 +1168,7 @@ li > ol {
 ol ul {
     margin-bottom: 0;
 }
+
 
 img {
     -ms-interpolation-mode: bicubic;
